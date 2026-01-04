@@ -654,7 +654,8 @@ body {
 .tab-label {
   font-size: inherit;
   font-weight: inherit;
-  color: inherit;
+    color: #212529;
+
 }
 
 .timeline-tab.active {
@@ -664,7 +665,9 @@ body {
   border-color: #dfa11b;
 }
 
-
+.timeline-tab.active .tab-label{
+  color: #fff;
+}
 .item-slide-products {
   display: block;
   position: relative;
@@ -5848,5 +5851,6 @@ body {
     font-size: 17px;
   }
 }
+
 
 
